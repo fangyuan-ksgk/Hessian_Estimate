@@ -7,4 +7,8 @@ This pyton package allows for parameter inference of $\theta$, which models the 
 The test file contains a notebook with examples of parameter inference of a special type of PODPDO model.
 
 
-![image.png](attachment:a72407f4-2509-47c6-bc4b-b3210d4876ca.png)
+An example of SGD based on estimated Jacobian to infer the unknown parameter:
+![image](https://user-images.githubusercontent.com/66006349/122913820-9c737480-d362-11eb-95db-9f12e3c148de.png)
+
+
+@ksgk_fangyuan
