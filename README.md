@@ -1,8 +1,10 @@
 # Hessian_Estimate
 
-Partially Observed Diffusion Process with Discrete Observation (POPDOD) model is a popular model for sequential data inference. It is a special form of Hidden Markov Model (HMM). A singla process X solves a Stochastic differential equation (SDE), and a noisy obseravtion process Y is available at discrete time points. 
+Partially Observed Diffusion Process with Discrete Observation (POPDOD) model is a popular model for sequential data inference. It is a special form of Hidden Markov Model (HMM). A singla process X solves a Stochastic differential equation (SDE), and a noisy obseravtion process Y is available at discrete time points. This python package implemented the method described in our paper "Unbiased Estimation of the Hessian for Partially Observed Diffusions":
 
-This pyton package allows for parameter inference of theta, which models the drift coefficient functions in the SDE, as well as the observation density function. The inference is done through estimation of the Jacobian and Hessian of the log likelihood of the observations with respect to the parameter \theta, and then apply gradient-based descent method to obtain value of $\theta$ through training. 
+https://arxiv.org/abs/2109.02371
+
+This pyton package allows for parameter inference of theta, which models the drift coefficient functions in the SDE, as well as the observation density function. The inference is done through estimation of the Jacobian and Hessian of the log likelihood of the observations with respect to the parameter, and then apply gradient-based descent method for training. 
 
 The test file contains a notebook with examples of parameter inference of a special type of PODPDO model.
 
